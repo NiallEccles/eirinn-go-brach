@@ -2284,5 +2284,12 @@
  benghazi_oil_developed:0 "Benghazi Oil Fields Developed"
  TREE_FILTER_TOGGLE:0 "§GClick§! to toggle showing of more filters"
 ########################################################
-EGB_annex_NIR:"Answer the Ulster Question"
-EGB_annex_NIR_desc:"It is long since time to create a United Ireland."
+# annex Northern Ireland
+IRE_EGB_annex_NIR:"Answer the Ulster Question"
+IRE_EGB_annex_NIR_desc:"It is long since time to create a United Ireland."
+# Start Fascist path
+######################
+IRE_EGB_blueshirts:"Return of the Blueshirts"
+IRE_EGB_blueshirts_desc:"Complacency and lack of action has let to rising support for the ultra nationalist Blueshirts."
+IRE_EGB_blueshirts_march:"Blueshirts march on Dublin."
+IRE_EGB_blueshirts_march_desc:"The blueshirts are emboldened and march on the capital."
