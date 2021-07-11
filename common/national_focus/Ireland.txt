@@ -1,0 +1,31 @@
+focus_tree = {
+	id = ireland_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = IRE
+		}
+	}
+
+	focus = {
+		id = IRE_EGB_annex_NIR
+		icon = GFX_focus_generic_treaty
+		text = EGB_annex_NIR
+		desc = EGB_annex_NIR_desc
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			annex_country = { target = NIR transfer_troops = yes }
+		}
+	}
+}
