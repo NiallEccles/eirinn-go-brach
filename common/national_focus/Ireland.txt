@@ -15,7 +15,6 @@ focus_tree = {
 		id = IRE_EGB_blueshirts
 		icon = GFX_goal_support_fascism
 		text = IRE_EGB_blueshirts
-		desc = IRE_EGB_blueshirts_desc
 		x = 1
 		y = 3
 		cost = 10
@@ -36,7 +35,6 @@ focus_tree = {
 		id = IRE_EGB_blueshirts_march
 		icon = GFX_goal_support_fascism
 		text = IRE_EGB_blueshirts_march
-		desc = IRE_EGB_blueshirts_march_desc
 		x = 1
 		y = 6
 		cost = 10
@@ -60,9 +58,46 @@ focus_tree = {
 		id = IRE_EGB_annex_NIR
 		icon = GFX_focus_generic_treaty
 		text = IRE_EGB_annex_NIR
-		desc = IRE_EGB_annex_NIR_desc
 		x = 1
 		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			annex_country = { target = NIR transfer_troops = yes }
+		}
+	}
+	#Anglo-Irish trade war
+	focus = {
+		id = IRE_EGB_refuse_annuities
+		icon = GFX_focus_generic_treaty
+		text = IRE_EGB_refuse_annuities
+		x = 2
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 75
+			add_opinion_modifier = { 
+				target = ENG 
+				modifier = trade_war
+			}
+		}
+	}
+	# The Emergency
+	focus = {
+		id = IRE_EGB_the_emergency
+		icon = GFX_focus_generic_treaty
+		text = IRE_EGB_the_emergency
+		x = 1
+		y = 4
 		cost = 10
 		ai_will_do = {
 			factor = 1
