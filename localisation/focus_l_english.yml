@@ -2293,3 +2293,11 @@ IRE_EGB_blueshirts:"Return of the Blueshirts"
 IRE_EGB_blueshirts_desc:"Complacency and lack of action has let to rising support for the ultra nationalist Blueshirts."
 IRE_EGB_blueshirts_march:"Blueshirts march on Dublin."
 IRE_EGB_blueshirts_march_desc:"The blueshirts are emboldened and march on the capital."
+# The Emergency
+######################
+IRE_EGB_the_emergency:"The Emergency"
+IRE_EGB_the_emergency_desc:"The blueshirts are emboldened and march on the capital."
+# Anglo-Irish Trade War
+######################
+IRE_EGB_refuse_annuities:"Refuse British Annuities"
+IRE_EGB_refuse_annuities_desc:"As part of the 1921 Anglo-Irish Treaty we have had to reimburse Britain with land annuities. We will refuse to reimburse Britain for these."
