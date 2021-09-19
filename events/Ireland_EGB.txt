@@ -1,0 +1,46 @@
+﻿###########################
+# Irish Events
+###########################
+
+add_namespace = ireland.emergency
+
+# Germany Withdraws Advisors
+country_event = {
+	id = ireland.emergency.1
+	title = "Uh oh stinky"
+	desc = "poooooop"
+	picture = GFX_the_emergency_event_image
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "yee"
+		add_political_power = -10
+	}
+	option = {
+		name = "no"
+		add_political_power =  10
+	}
+}
+
+# UK offers united Ireland
+country_event = {
+	id = ireland.emergency.2
+	title = "UK offers a united Ireland"
+	desc = "The UK has today proposed a unified Ireland. In exchange for Northern Ireland returning to Eire, we would be asked to join the war effort against the fascist forces of Europe."
+	picture = GFX_the_emergency_event_image
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Our day has come"
+		annex_country = { target = NIR transfer_troops = yes }
+		ENG = { 
+			add_to_faction = IRE
+		}
+	}
+	option = {
+		name = "No, we must preserve our neutrality"
+		add_political_power =  100
+	}
+}
