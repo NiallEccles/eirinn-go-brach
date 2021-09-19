@@ -2301,3 +2301,7 @@ IRE_EGB_the_emergency_desc:"The blueshirts are emboldened and march on the capit
 ######################
 IRE_EGB_refuse_annuities:"Refuse British Annuities"
 IRE_EGB_refuse_annuities_desc:"As part of the 1921 Anglo-Irish Treaty we have had to reimburse Britain with land annuities. We will refuse to reimburse Britain for these."
+# Emergency Powers Act
+######################
+IRE_EGB_emergency_powers: "Pass The Emergency Powers Act"
+IRE_EGB_emergency_powers_desc: "War has once again erupted in Europe. To safeguard our neutrality we need to pass the Emergency Powers act."
